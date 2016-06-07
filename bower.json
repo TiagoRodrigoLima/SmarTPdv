@@ -1,0 +1,23 @@
+{
+  "name": "smartpdv",
+  "authors": [
+    "Tiago Rodrigo Lima"
+  ],
+  "description": "Sistema para Controle de Estoque e Vendas",
+  "main": "",
+  "keywords": [
+    "PDV",
+    "Vendas",
+    "Estoque"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.smartpdv.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
