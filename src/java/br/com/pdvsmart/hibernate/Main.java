@@ -27,11 +27,11 @@ public class Main {
             em.getTransaction().begin();
              
             Produto produto = new Produto();
-            produto.setCodigo("codigo");
-            produto.setNome("produto");
-            produto.setQuantidade(1);
-            produto.setQuantidadeMin(1);
-            produto.setCusto(10.0);
+            produto.setCodigo("Diogo");
+            produto.setNome("Bixao");
+            produto.setQuantidade(3);
+            produto.setQuantidadeMin(2);
+            produto.setCusto(40.0);
              
             em.persist(produto);
              

@@ -12,6 +12,17 @@
                 Hello from Facelets
                 <br />
                 <h:form>
+                    <h:panelGrid columns="2">
+                        Id: <h:inputText value="#{produtoBean.produto.id}" />
+                        Código: <h:inputText value="#{produtoBean.produto.codigo}" />
+                        Nome: <h:inputText value="#{produtoBean.produto.nome}" />
+                        Quantidade: <h:inputText value="#{produtoBean.produto.quantidade}" />
+                        Custo: <h:inputText value="#{produtoBean.produto.custo}" />
+                        Quantidade Mínima: <h:inputText value="#{produtoBean.produto.quantidadeMin}" />
+                        <h:commandButton value="Cadastrar" action="#{produtoBean.cadastrar}" />
+                    </h:panelGrid>
+                </h:form>
+                <h:form>
                     <h:link outcome="welcomePrimefaces" value="Página de boas-vindas do Primefaces" />
                 </h:form>
             </p:layoutUnit>
